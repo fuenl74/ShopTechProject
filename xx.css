@@ -1,0 +1,139 @@
+@charset "UTF-8";
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+header img {
+	float: left;
+}
+header h1 {
+	float: right;
+	font-family: aladin;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4.5em;
+	margin-top: 1em;
+}
+.headerImg {
+			float: left;
+		   }
+.headerH1 	{
+			float: right;
+			font-family: aladin;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 5.5em; 
+			}
+.clearflt {
+			clear: both;
+		  }
+.fltlft {
+	float: left;
+}
+
+.fltrt{
+	float: right;
+}
+.mainCarousel {
+	height: 20em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+h1 {
+	float: right;
+	font-family: aladin;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4.5em;
+	margin-top: 1em;
+}
+table.text {
+        font-family: Arial, sans-serif; 		
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		color: #000000;
+		text-align: left
+		}
+
+tr.text {
+		font-family: Tahoma, Arial, Helvetica, san-serif; 
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		color: #404040;
+		}
+
+td.text {
+        font-family: Tahoma, Arial, Helvetica, san-serif; 
+		color: #404040;
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		}
+
+tr.redtext {
+        font-family: Tahoma, Arial, Helvetica, san-serif; 
+		color: #FF0000;
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		}
+
+td.redtext {
+        font-family: Tahoma, Arial, Helvetica, san-serif; 
+		color: #FF0000;
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		}
+		
+td.caption {
+        font-family: Arial, sans-serif; 
+		color: black;
+		font-size: 15px; 
+		font-weight: Normal; 
+		text-decoration: none;
+		text-align: center;
+		}
+		
+a:link {
+		color: #1e1eb1;
+		text-decoration: none
+		}     /* unvisited link */
+		
+a:visited {
+		color: #1e1eb1;
+		text-decoration: none
+		}  /* visited link */
+		
+a:hover {
+		color: red;
+		text-decoration: underline
+		}   /* mouse over link */
+
+a:active {
+		color: #0000FF
+		}   /* selected link */
+
+.unique a:link, .unique a:visited, .unique a:hover, .unique a:active  {
+text-decoration: underline;
+}
+
+.dropdown-contentt { 
+	  color: black;
+	  font-weight: bold;
+	  font-family: roboto;
+	  font-size: 110%;
+	  background-color: white;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  padding: 5px 14px;
+	  z-index: 1;
+} 
+.Butnn:hover	{
+	  background-color:rgb(200, 200, 250);
+}
+.Butnn{
+	background-color:rgb(255, 255, 255);
+	font-size:110%;
+	font-weight:bold; 
+}
